@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conhecendo as doencas</title>
+    <link rel="stylesheet" href="conhecendo as doenca paginainial.css" />
+</head>
+
+<body>
+    <header>
+        <div class="a">
+            <h1>conhecendo as doencas</h1>
+            <nav>
+
+                <a href="conhecendo_as_doencas_paginainicial.html">inicio</a>
+                <a href="conhecendo as doencas doencas.html">doencas</a>
+                
+
+                 <input type="text" placeholder="pesquisar doença">
+            </nav>
+        </div>
+
+    </header>
+
+
+    <div class="imagem">
+        <img src="sistema-de-saude-digital--2048x1365 copy.jpg">
+        <p>
+            conheca, previna e trate doencas mas como com informacao segura <br><br><br>    
+           
+        </p>
+
+    </div>
+    <div class="menu">
+        <nav class="nav">
+            <ul>
+                <li><a href="conhecendo_as_doencas_paginainicial.html">inicio</a></li>
+                <li><a href="conhecendo as doencas doencas.html">doencas</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+ <script>
+        const inputPesquisarDoencas = document.getElementById("pesquisar doencas");
+        const a=document.getElementById("lista")
+        const itens=a.getElementsByTagName("li")
+
+        inputPesquisarDoencas.addEventListener("keyup",()=>{
+            const filtro=inputPesquisarDoencas.value.case();
+            array.from(item).array.forEach(item => {
+                const texto=item.innerText.toLowercase();
+                item.style.display = texto.includes(filtro)
+            });
+        });
+
+    </script>
+
+
+</body>
+
+</html>
